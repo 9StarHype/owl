@@ -1,15 +1,17 @@
 {
   "id": "com.example.refimage",
   "name": "Token Reference Image",
+  "description": "Right-click a token to show an image from its metadata.",
   "version": "1.0.0",
+  "manifest_version": 1,
   "entry": {
     "contextMenu": {
-      "iframeUrl": "/src/main.js"
+      "iframeUrl": "https://9starhype.github.io/owl/src/main.js"
     },
     "popovers": [
       {
         "id": "refimage-viewer",
-        "iframeUrl": "/public/viewer.html"
+        "iframeUrl": "https://9starhype.github.io/owl/public/viewer.html"
       }
     ]
   }
