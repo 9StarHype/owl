@@ -1,0 +1,16 @@
+{
+  "id": "com.example.refimage",
+  "name": "Token Reference Image",
+  "version": "1.0.0",
+  "entry": {
+    "contextMenu": {
+      "iframeUrl": "/src/main.js"
+    },
+    "popovers": [
+      {
+        "id": "refimage-viewer",
+        "iframeUrl": "/public/viewer.html"
+      }
+    ]
+  }
+}
