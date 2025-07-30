@@ -1,10 +1,10 @@
 {
+  "id": "com.9starhype.refimage",
   "name": "Reference Image Viewer",
   "version": "0.1.0",
   "manifest_version": 1,
   "author": "9StarHype",
   "description": "Right-click tokens to view a reference image.",
-  "id": "com.9starhype.refimage",
   "entry": {
     "contextMenu": {
       "iframeUrl": "https://9starhype.github.io/owl/src/main.js"
@@ -17,4 +17,3 @@
     ]
   }
 }
-
