@@ -1,21 +1,20 @@
 {
-  "id": "com.9starhype.refimage",
-  "name": "Token Reference Image",
+  "name": "Reference Image Viewer",
   "version": "0.1.0",
   "manifest_version": 1,
   "author": "9StarHype",
-  "icon": "/icon.png",
-  "homepage_url": "https://github.com/9StarHype/owl",
-  "description": "Right-click a token to view a reference image stored in its metadata.",
+  "description": "Right-click tokens to view a reference image.",
+  "id": "com.9starhype.refimage",
   "entry": {
     "contextMenu": {
-      "iframeUrl": "/src/main.js"
+      "iframeUrl": "https://9starhype.github.io/owl/src/main.js"
     },
     "popovers": [
       {
         "id": "refimage-viewer",
-        "iframeUrl": "/public/viewer.html"
+        "iframeUrl": "https://9starhype.github.io/owl/public/viewer.html"
       }
     ]
   }
 }
+
